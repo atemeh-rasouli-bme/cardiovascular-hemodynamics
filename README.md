@@ -61,6 +61,38 @@ The analysis focuses on:
 The underlying computational model was developed as part of cardiovascular biomechanics research investigating a blood-contact-free cardiac assist concept.
 
 The Python pipeline is used to organize, process, and compare numerical simulation results.
+## Methods
+
+The computational workflow combines COMSOL Multiphysics simulation outputs with Python-based data processing and visualization.
+
+### Research Workflow
+
+1. **COMSOL Multiphysics simulation**
+   - Fluid–structure interaction (FSI) modelling
+   - Cardiovascular flow and structural mechanics
+   - Three simulation configurations: NB, LV, and BV
+
+2. **Data extraction**
+   - Extraction of time-dependent pressure and velocity data
+   - Extraction of ventricular von Mises stress
+   - Extraction of mitral and tricuspid stress
+
+3. **Python data processing**
+   - Conversion of simulation outputs into structured CSV datasets
+   - Numerical analysis using NumPy and Pandas
+   - Calculation of mean, minimum, maximum, and relative changes
+
+4. **Comparative analysis**
+   - Quantitative comparison of LV and BV configurations against the NB baseline
+   - Evaluation of hemodynamic and structural responses
+
+5. **Visualization**
+   - Generation of comparative figures using Matplotlib
+   - Presentation of temporal simulation responses and key outcome metrics
+
+### Computational Pipeline
+
+COMSOL Simulation → Data Extraction → Python Processing → Quantitative Analysis → Visualization → Comparative Results
 
 ## Key Findings
 
