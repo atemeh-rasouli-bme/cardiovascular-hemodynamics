@@ -76,6 +76,22 @@ Compared with the baseline NB case:
 - BV peak RV von Mises stress increased by approximately **259.3%**
 
 These results represent numerical observations from the computational model and should not be interpreted as clinical outcomes.
+## Results Summary
+
+| Metric | NB | LV | BV |
+|---|---:|---:|---:|
+| Mean aortic velocity (cm/s) | 9.93 | 28.65 | 20.39 |
+| Mean pulmonary velocity (cm/s) | 11.89 | 26.12 | 24.80 |
+| Mean aortic pressure (Pa) | 10,781.05 | 10,646.59 | 10,731.97 |
+| Mean pulmonary pressure (Pa) | 3,760.91 | 3,707.70 | 3,709.45 |
+| Peak LV von Mises stress (N/m²) | 25,388 | 96,753 | 63,423 |
+| Peak RV von Mises stress (N/m²) | 25,545 | 74,723 | 91,791 |
+| Peak mitral stress (N/m) | 4.77 | 23.43 | 11.21 |
+| Peak tricuspid stress (N/m) | 0.88 | 2.12 | 3.35 |
+
+**NB:** Healthy biventricular model without balloon  
+**LV:** External compression of the left ventricle  
+**BV:** External compression of both ventricles
 
 ## Project Goals
 
