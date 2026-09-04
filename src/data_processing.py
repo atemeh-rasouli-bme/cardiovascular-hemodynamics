@@ -1,11 +1,8 @@
 from pathlib import Path
 import re
 
-file_path = Path(
-    r"C:\Users\novin.toos\Desktop\cardiovascular-hemodynamics"
-    r"\COMSOL_Complete_Research_Database (2).md"
-)
-
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+file_path = PROJECT_ROOT / "data" / "raw" / "COMSOL_Complete_Research_Database (2).md"
 text = file_path.read_text(encoding="utf-8")
 
 keywords = [
