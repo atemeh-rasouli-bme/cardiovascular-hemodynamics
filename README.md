@@ -21,6 +21,31 @@ The analysis focuses on:
 - Left and right ventricular von Mises stress
 - Mitral and tricuspid stress
 - Quantitative comparison between NB, LV, and BV configurations
+## Key Figures
+
+### Aortic Velocity
+
+![Aortic velocity comparison](figures/NB_LV_BV_aortic_velocity.png)
+
+### Aortic Outlet Pressure
+
+![Aortic pressure comparison](figures/NB_LV_BV_aortic_pressure.png)
+
+### Left Ventricular Von Mises Stress
+
+![LV von Mises stress comparison](figures/NB_LV_BV_lv_von_mises_stress.png)
+
+### Right Ventricular Von Mises Stress
+
+![RV von Mises stress comparison](figures/NB_LV_BV_rv_von_mises_stress.png)
+
+### Mitral Valve Stress
+
+![Mitral stress comparison](figures/NB_LV_BV_mitral_stress_x.png)
+
+### Tricuspid Valve Stress
+
+![Tricuspid stress comparison](figures/NB_LV_BV_tricuspid_stress_x.png)
 
 ## Tools
 
