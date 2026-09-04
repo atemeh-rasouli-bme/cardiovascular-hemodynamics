@@ -11,7 +11,16 @@ The project investigates the effect of an external cardiac assist balloon on ven
 - **NB** — Healthy biventricular model without balloon
 - **LV** — External compression of the left ventricle
 - **BV** — External compression of both ventricles
+## Research Questions
 
+This project investigates how external cardiac assist balloon compression affects:
+
+- Aortic and pulmonary blood flow velocity
+- Aortic and pulmonary outlet pressure
+- Left and right ventricular von Mises stress
+- Mitral and tricuspid valve stress
+
+The analysis compares two assisted configurations (LV and BV) against the healthy biventricular baseline (NB).
 ## Main Outputs
 
 The analysis focuses on:
