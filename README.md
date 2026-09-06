@@ -183,9 +183,3 @@ Required Python packages are listed in `requirements.txt`.
 The main COMSOL data extraction, processing, comparative analysis, and visualization stages are complete.
 
 The project is currently organized as a reproducible computational biomechanics portfolio project.
-
-## Status
-
-The main COMSOL data extraction, processing, comparative analysis, and visualization stages are complete.
-
-The project is currently organized as a reproducible computational biomechanics portfolio project.
